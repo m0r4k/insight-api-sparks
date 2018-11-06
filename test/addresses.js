@@ -2,7 +2,7 @@
 var sinon = require('sinon');
 var should = require('should');
 var AddressController = require('../lib/addresses');
-var _ = require('losparks');
+var _ = require('lodash');
 var sparkscore = require('@sparksevo/sparkscore-lib');
 
 var txinfos = {

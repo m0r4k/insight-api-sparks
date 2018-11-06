@@ -3,7 +3,7 @@ var should = require('should');
 var sinon = require('sinon');
 var sparkscore = require('@sparksevo/sparkscore-lib');
 var TxController = require('../lib/transactions');
-var _ = require('losparks');
+var _ = require('lodash');
 
 describe('Transactions', function() {
   describe('/tx/:txid', function() {

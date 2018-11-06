@@ -4,7 +4,7 @@ var should = require('should');
 var sinon = require('sinon');
 var BlockController = require('../lib/blocks');
 var sparkscore = require('@sparksevo/sparkscore-lib');
-var _ = require('losparks');
+var _ = require('lodash');
 
 var blocks = require('./data/blocks.json');
 
