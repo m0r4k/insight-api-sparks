@@ -261,10 +261,10 @@
     ]
   },
   {
-    "poolName":"DASH.TOP",
-    "url":"http://dash.btc.top/",
+    "poolName":"sparks.TOP",
+    "url":"http://sparks.btc.top/",
     "searchStrings":[
-      "/DASH.TOP/"
+      "/sparks.TOP/"
     ]
   },
   {
@@ -290,7 +290,7 @@
   },
   {
     "poolName":"Stratum Pool",
-    "url":"https://github.com/dashpay/dash-stratum",
+    "url":"https://github.com/sparkspay/sparks-stratum",
     "searchStrings":[
       "/stratum/"
     ]

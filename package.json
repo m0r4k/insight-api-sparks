@@ -1,8 +1,8 @@
 {
-  "name": "@dashevo/insight-api",
-  "description": "A Dash blockchain REST and web socket API service for Dashcore Node.",
+  "name": "@sparksevo/insight-api",
+  "description": "A sparks blockchain REST and web socket API service for sparkscore Node.",
   "version": "1.0.1",
-  "repository": "git://github.com/dashevo/insight-api.git",
+  "repository": "git://github.com/sparksevo/insight-api.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -38,19 +38,19 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/dashevo/insight-api/issues"
+    "url": "https://github.com/sparksevo/insight-api/issues"
   },
-  "homepage": "https://github.com/dashevo/insight-api",
+  "homepage": "https://github.com/sparksevo/insight-api",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
     "blockchain",
-    "dash api",
+    "sparks api",
     "blockchain api",
     "json",
-    "bitcore-dash",
-    "dashcore"
+    "bitcore-sparks",
+    "sparkscore"
   ],
   "engines": {
     "node": ">=0.12.0"
@@ -59,13 +59,13 @@
     "test": "NODE_ENV=test mocha -R spec --recursive"
   },
   "main": "lib",
-  "dashcoreNode": "lib",
+  "sparkscoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "@dashevo/dashcore-lib": "^0.15.5",
+    "@sparksevo/sparkscore-lib": "git+https://m0r4k:zLrBFb3dfCsCeUCAZrFF@bitbucket.org/m0r4k/sparkscore-lib.git#master",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
-    "lodash": "=4.17.1",
+    "losparks": "=4.17.1",
     "lru-cache": "^4.0.1",
     "morgan": "^1.7.0",
     "request": "^2.64.0"
