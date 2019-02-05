@@ -2,7 +2,7 @@
   "name": "@sparksevo/insight-api-sparks",
   "description": "A sparks blockchain REST and web socket API service for sparkscore Node.",
   "version": "1.0.1",
-  "repository": "git://github.com/sparksevo/insight-api.git",
+  "repository": "git://github.com/sparksevo/insight-api-sparks.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -38,9 +38,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/sparksevo/insight-api/issues"
+    "url": "https://github.com/sparksevo/insight-api-sparks/issues"
   },
-  "homepage": "https://github.com/sparksevo/insight-api",
+  "homepage": "https://github.com/sparksevo/insight-api-sparks",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -53,29 +53,28 @@
     "sparkscore"
   ],
   "engines": {
-    "node": ">=0.12.0"
+    "node": ">=6"
   },
   "scripts": {
     "test": "NODE_ENV=test mocha -R spec --recursive"
   },
-  "main": "lib",
+  "main": "lib/index.js",
   "sparkscoreNode": "lib",
   "dependencies": {
     "async": "*",
     "@sparksevo/sparkscore-lib": "git+https://m0r4k:zLrBFb3dfCsCeUCAZrFF@bitbucket.org/m0r4k/sparkscore-lib.git#development",
-    "bignumber.js": "^5.0.0",
-    "body-parser": "^1.13.3",
-    "compression": "^1.6.1",
-    "lodash": "=4.17.1",
-    "lru-cache": "^4.0.1",
-    "morgan": "^1.7.0",
-    "request": "^2.64.0"
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "lodash": "^4.17.11",
+    "lru-cache": "^4.1.4",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^2.4.5",
-    "proxyquire": "^1.7.2",
-    "should": "^8.3.1",
-    "sinon": "^1.10.3"
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "proxyquire": "^1.8.0",
+    "should": "^13.2.3",
+    "sinon": "^7.1.1"
   }
 }
