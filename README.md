@@ -15,8 +15,8 @@
     <img src="https://img.shields.io/travis/sparksevo/insight-api/master.svg?style=flat-square" alt="Build Status" />
   </a>
   <!-- NPM version -->
-  <a href="https://npmjs.org/package/@sparksevo/insight-api">
-    <img src="https://img.shields.io/npm/v/@sparksevo/insight-api.svg?style=flat-square" alt="NPM version" />
+  <a href="https://npmjs.org/package/insight-api">
+    <img src="https://img.shields.io/npm/v/insight-api.svg?style=flat-square" alt="NPM version" />
   </a>
 </div>
 
@@ -456,7 +456,7 @@ Sample output:
           payment_amount: 5,
           start_epoch: 1482105600,
           type: 1,
-          url: 'https://www.sparks.org'
+          url: 'https://www.sparkspay.io'
         },
         AbsoluteYesCount: 40,
         YesCount: 40,
@@ -505,7 +505,7 @@ Sample output:
           payment_amount: 5,
           start_epoch: 1482105600,
           type: 1,
-          url: 'https://www.sparks.org'
+          url: 'https://www.sparkspay.io'
         },
         CreationTime: 1482223714,
         FundingResult: {
