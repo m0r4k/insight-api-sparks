@@ -15,8 +15,8 @@
     <img src="https://img.shields.io/travis/sparksevo/insight-api/master.svg?style=flat-square" alt="Build Status" />
   </a>
   <!-- NPM version -->
-  <a href="https://npmjs.org/package/@sparksevo/insight-api">
-    <img src="https://img.shields.io/npm/v/@sparksevo/insight-api.svg?style=flat-square" alt="NPM version" />
+  <a href="https://npmjs.org/package/insight-api">
+    <img src="https://img.shields.io/npm/v/insight-api.svg?style=flat-square" alt="NPM version" />
   </a>
 </div>
 
