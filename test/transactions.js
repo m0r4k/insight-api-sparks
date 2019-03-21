@@ -1,7 +1,7 @@
 'use strict';
 var should = require('should');
 var sinon = require('sinon');
-var sparkscore = require('@sparksevo/sparkscore-lib');
+var sparkscore = require('bitcore-lib-sparks');
 var TxController = require('../lib/transactions');
 var _ = require('lodash');
 

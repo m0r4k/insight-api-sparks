@@ -3,7 +3,7 @@ var sinon = require('sinon');
 var should = require('should');
 var AddressController = require('../lib/addresses');
 var _ = require('lodash');
-var sparkscore = require('@sparksevo/sparkscore-lib');
+var sparkscore = require('bitcore-lib-sparks');
 
 var txinfos = {
   totalCount: 2,

@@ -62,7 +62,7 @@
   "sparkscoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "@sparksevo/sparkscore-lib": "git+https://m0r4k:zLrBFb3dfCsCeUCAZrFF@bitbucket.org/m0r4k/sparkscore-lib.git#0.16.8",
+    "bitcore-lib-sparks": "git+https://github.com/m0r4k/bitcore-lib-sparks.git#0.16.8",
     "body-parser": "^1.18.3",
     "compression": "^1.7.3",
     "lodash": "^4.17.11",

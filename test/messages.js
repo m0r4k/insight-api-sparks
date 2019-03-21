@@ -3,7 +3,7 @@
 var should = require('should');
 var sinon = require('sinon');
 var MessagesController = require('../lib/messages');
-var sparkscore = require('@sparksevo/sparkscore-lib');
+var sparkscore = require('bitcore-lib-sparks');
 var _ = require('lodash');
 
 describe('Messages', function() {
