@@ -2,7 +2,7 @@
   "name": "insight-api-sparks",
   "description": "A sparks blockchain REST and web socket API service for sparkscore Node.",
   "version": "1.0.1",
-  "repository": "git://github.com/sparksevo/insight-api-sparks.git",
+  "repository": "git://github.com/m0r4k/insight-api-sparks.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -38,9 +38,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/sparksevo/insight-api-sparks/issues"
+    "url": "https://github.com/m0r4k/insight-api-sparks/issues"
   },
-  "homepage": "https://github.com/sparksevo/insight-api-sparks",
+  "homepage": "https://github.com/m0r4k/insight-api-sparks",
   "license": "MIT",
   "keywords": [
     "insight",
